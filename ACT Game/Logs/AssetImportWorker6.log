@@ -1,0 +1,3105 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.17f1c1 (a01dafa986ec) revision 10493359'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15789 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+G:\study\Unity\2022.3.17f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+G:/study/gitHub/ACT-Game/ACT Game
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+62769
+Successfully changed project path to: G:/study/gitHub/ACT-Game/ACT Game
+G:/study/gitHub/ACT-Game/ACT Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12060] Host "[IP] 26.114.114.101 [Port] 0 [Flags] 2 [Guid] 1841744479 [EditorId] 1841744479 [Version] 1048832 [Id] WindowsEditor(7,int) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12060] Host "[IP] 26.114.114.101 [Port] 0 [Flags] 2 [Guid] 1841744479 [EditorId] 1841744479 [Version] 1048832 [Id] WindowsEditor(7,int) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 27.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1c1 (a01dafa986ec)
+[Subsystems] Discovering subsystems at path G:/study/Unity/2022.3.17f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/study/gitHub/ACT-Game/ACT Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 with Max-Q Design (ID=0x1f12)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'G:/study/Unity/2022.3.17f1c1/Editor/Data/Managed'
+Mono path[1] = 'G:/study/Unity/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/study/Unity/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/study/Unity/2022.3.17f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: G:/study/Unity/2022.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016042 seconds.
+- Loaded All Assemblies, in  0.455 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 466 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.822 seconds
+Domain Reload Profiling: 1270ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (150ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (136ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (822ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (762ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (585ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.810 seconds
+Refreshing native plugins compatible for Editor in 8.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.666 seconds
+Domain Reload Profiling: 1465ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (499ms)
+		LoadAssemblies (408ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (173ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (667ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (494ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+database is locked
+Failed to delete database file Library/ShaderCache.db
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+Refreshing native plugins compatible for Editor in 8.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3408 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (130.8 KB). Loaded Objects now: 3892.
+Memory consumption went from 181.0 MB to 180.9 MB.
+Total: 3.549800 ms (FindLiveObjects: 0.439400 ms CreateObjectMapping: 0.196600 ms MarkObjects: 2.756700 ms  DeleteObjects: 0.155800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 426981.248896 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e710e7cf7e11aa8bc1b41536afbf203') in 0.002218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.776260 seconds.
+  path: Assets/Scenes/Arab City 1.unity
+  artifactKey: Guid(7f38cb427988aba49a229e189336f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Arab City 1.unity using Guid(7f38cb427988aba49a229e189336f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c268ea6d0e72d5e78b81cab3cc281a') in 0.000828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 184.751954 seconds.
+  path: Assets/Scenes/Arab City 1
+  artifactKey: Guid(538d0f6261a0de84394e9781f70b45fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Arab City 1 using Guid(538d0f6261a0de84394e9781f70b45fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dddc4bc1a53f2ed4ab42e24236a2ab1') in 0.001000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.654866 seconds.
+  path: Assets/Scenes/Arab City 1.unity
+  artifactKey: Guid(7f38cb427988aba49a229e189336f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Arab City 1.unity using Guid(7f38cb427988aba49a229e189336f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003963491409daa78f115e0938a85975') in 0.000861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.633 seconds
+Refreshing native plugins compatible for Editor in 9.35 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.498 seconds
+Domain Reload Profiling: 2120ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (415ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1499ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+Refreshing native plugins compatible for Editor in 9.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3296 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.4 KB). Loaded Objects now: 3907.
+Memory consumption went from 156.3 MB to 156.2 MB.
+Total: 3.097200 ms (FindLiveObjects: 0.324700 ms CreateObjectMapping: 0.159700 ms MarkObjects: 2.523800 ms  DeleteObjects: 0.087600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.605 seconds
+Refreshing native plugins compatible for Editor in 9.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.428 seconds
+Domain Reload Profiling: 2020ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (286ms)
+		LoadAssemblies (391ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1429ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (460ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+Refreshing native plugins compatible for Editor in 7.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3297 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.4 KB). Loaded Objects now: 3922.
+Memory consumption went from 158.6 MB to 158.5 MB.
+Total: 2.899300 ms (FindLiveObjects: 0.273600 ms CreateObjectMapping: 0.090900 ms MarkObjects: 2.400300 ms  DeleteObjects: 0.133100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.553 seconds
+Refreshing native plugins compatible for Editor in 8.49 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.361 seconds
+Domain Reload Profiling: 1903ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (358ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1361ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+Refreshing native plugins compatible for Editor in 11.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3297 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.3 KB). Loaded Objects now: 3937.
+Memory consumption went from 160.6 MB to 160.5 MB.
+Total: 3.717200 ms (FindLiveObjects: 0.515000 ms CreateObjectMapping: 0.140200 ms MarkObjects: 2.834000 ms  DeleteObjects: 0.225200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.719 seconds
+Refreshing native plugins compatible for Editor in 11.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.931 seconds
+Domain Reload Profiling: 2633ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (474ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1932ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (589ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+Refreshing native plugins compatible for Editor in 7.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3297 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.4 KB). Loaded Objects now: 3952.
+Memory consumption went from 162.7 MB to 162.6 MB.
+Total: 3.084200 ms (FindLiveObjects: 0.390000 ms CreateObjectMapping: 0.176100 ms MarkObjects: 2.435200 ms  DeleteObjects: 0.081700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.598 seconds
+Refreshing native plugins compatible for Editor in 8.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.408 seconds
+Domain Reload Profiling: 1994ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (388ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1409ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (424ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+Refreshing native plugins compatible for Editor in 7.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3297 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.5 KB). Loaded Objects now: 3967.
+Memory consumption went from 164.7 MB to 164.6 MB.
+Total: 3.471000 ms (FindLiveObjects: 0.383400 ms CreateObjectMapping: 0.170700 ms MarkObjects: 2.826300 ms  DeleteObjects: 0.089400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 477.460933 seconds.
+  path: Assets/Picture/鍦ｇ棔.png
+  artifactKey: Guid(1e44f39adbc2a7849ac5b692355c0fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Picture/鍦ｇ棔.png using Guid(1e44f39adbc2a7849ac5b692355c0fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62e77282a2d0be35b7a8a9819d234d5') in 0.055899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 24.807741 seconds.
+  path: Assets/Scenes/Arab City 1.unity
+  artifactKey: Guid(7f38cb427988aba49a229e189336f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Arab City 1.unity using Guid(7f38cb427988aba49a229e189336f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9f76bd5003df0e24e1b539890fa4e3') in 0.000883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.758759 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/combo_02_2.fbx
+  artifactKey: Guid(78a2e79503464eb99ec55def4270e3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/combo_02_2.fbx using Guid(78a2e79503464eb99ec55def4270e3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a8d29e7b112141891fa9a366217ba5') in 0.169375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/combo_04_2.fbx
+  artifactKey: Guid(83fb6109543a48b6a494501ae2ab3d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/combo_04_2.fbx using Guid(83fb6109543a48b6a494501ae2ab3d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb08dab49911aa0ec3a4537482a08bc8') in 0.048064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Generic/walk_right.fbx
+  artifactKey: Guid(2bef4e168ddb45baae69a83c25cb70f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Generic/walk_right.fbx using Guid(2bef4e168ddb45baae69a83c25cb70f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b017b82206b908a2a0976e7dee57f5') in 0.048489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/combo_04_1.fbx
+  artifactKey: Guid(8dd0b07d87cc44d3a798d7e7f1274227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/combo_04_1.fbx using Guid(8dd0b07d87cc44d3a798d7e7f1274227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47be659b024e99249ef67cd28117bfd8') in 0.046533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Generic/walk_left.fbx
+  artifactKey: Guid(f335ca09128441f1a7500ed9746c119f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Generic/walk_left.fbx using Guid(f335ca09128441f1a7500ed9746c119f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26dc6c9f1b57dc7fcaba27832049edda') in 0.048530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/defense_02.fbx
+  artifactKey: Guid(97687c3af07643c3889a5818baa8e011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/defense_02.fbx using Guid(97687c3af07643c3889a5818baa8e011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2174862e475e19df094851befcc3944d') in 0.045538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/combo_04_4.fbx
+  artifactKey: Guid(a286494ada154094b1b04849169bf31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/combo_04_4.fbx using Guid(a286494ada154094b1b04849169bf31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50c2c632766e5eed01912ee047a6795') in 0.048751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 2.771204 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/equip.fbx
+  artifactKey: Guid(2584d2b262754c7e9dddf5c158002dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/equip.fbx using Guid(2584d2b262754c7e9dddf5c158002dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3d54f4d91d0ebb1d9d61b41e64e3d0') in 0.043764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/hit_bound_up.fbx
+  artifactKey: Guid(06400be70ecf4509b0355c46ff46364e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/hit_bound_up.fbx using Guid(06400be70ecf4509b0355c46ff46364e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54c6459fc4a25481cf1a31fe96d247e') in 0.046177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/hit_knockdown_03.fbx
+  artifactKey: Guid(cdda7597f69b41f8a88de6e0d3b5c4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/hit_knockdown_03.fbx using Guid(cdda7597f69b41f8a88de6e0d3b5c4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0abf38fc804fceaac9a519668a46e4c') in 0.042102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/combo_06_1.fbx
+  artifactKey: Guid(5026decf6e0e479581194a040f2a3211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/combo_06_1.fbx using Guid(5026decf6e0e479581194a040f2a3211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc52fec03813b68876bfe3ff5378c406') in 0.046814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/combo_06_4.fbx
+  artifactKey: Guid(acd7a276d90a418e88c4ca95024d1388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/combo_06_4.fbx using Guid(acd7a276d90a418e88c4ca95024d1388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ebd5ecee9f538e52b384a85f494003') in 0.048548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/dead_10.fbx
+  artifactKey: Guid(56da659b67dc4e868f9d54184ce329ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/dead_10.fbx using Guid(56da659b67dc4e868f9d54184ce329ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50704ee25eb35d2c44af64c6666b064e') in 0.049222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/hit_down_up.fbx
+  artifactKey: Guid(aa7be630adc04be89e9baf4153b7fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/hit_down_up.fbx using Guid(aa7be630adc04be89e9baf4153b7fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8309a7fb805edfff0fc67617af6b587') in 0.043477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.065995 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/combo_06_5.fbx
+  artifactKey: Guid(b633e45db3c34f0886eca08fade4c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/combo_06_5.fbx using Guid(b633e45db3c34f0886eca08fade4c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712f1cf99820d791a37a18e537010536') in 0.042474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/dead_09.fbx
+  artifactKey: Guid(0a1ff0d7c1f7458ca8743a932a9feec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/dead_09.fbx using Guid(0a1ff0d7c1f7458ca8743a932a9feec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27691ed02f095a34056f0ea86d6e214') in 0.044486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Generic/walk_front.fbx
+  artifactKey: Guid(4c38a7dbedbf40689bad1a14d3e1abab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Generic/walk_front.fbx using Guid(4c38a7dbedbf40689bad1a14d3e1abab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d12367bdf55698860c0d0fc38529bc') in 0.055854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Generic/Inplace/N_idle_inplace.fbx
+  artifactKey: Guid(c9123320de2d478c8f4eb4d0098c6ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Generic/Inplace/N_idle_inplace.fbx using Guid(c9123320de2d478c8f4eb4d0098c6ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f254b615c8bc82f3b1f1ad2086e88bb') in 0.053489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Generic/Inplace/rise_01_inplace.fbx
+  artifactKey: Guid(b11d7dee5b9945c7b7a0d2fabbf529db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Generic/Inplace/rise_01_inplace.fbx using Guid(b11d7dee5b9945c7b7a0d2fabbf529db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21d8a676f4d7076b2ada51a6fa685d7') in 0.045979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Humanoid/dead_04.fbx
+  artifactKey: Guid(2ab8bcbb8b35427f974fa786e4a8f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Humanoid/dead_04.fbx using Guid(2ab8bcbb8b35427f974fa786e4a8f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbba6c92fa59575d384d5acf032ee43d') in 0.052302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.497227 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Generic/Inplace/run_back_inplace.fbx
+  artifactKey: Guid(dc21072c454a44f798618417f628c4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Generic/Inplace/run_back_inplace.fbx using Guid(dc21072c454a44f798618417f628c4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c528d6af073d3089179d4d1f2eb503fb') in 0.051149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Generic/Inplace/run_frontL45_inplace.fbx
+  artifactKey: Guid(c6b2fe9653744e2f97af0422ac3e11ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Generic/Inplace/run_frontL45_inplace.fbx using Guid(c6b2fe9653744e2f97af0422ac3e11ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbbfbb76e9e0556f0aad24206cf8f16') in 0.046922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Rapier_Anim_Set/Animation/Generic/Inplace/run_frontR45_inplace.fbx
+  artifactKey: Guid(776f41a052f542879b6afa112bc57222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rapier_Anim_Set/Animation/Generic/Inplace/run_frontR45_inplace.fbx using Guid(776f41a052f542879b6afa112bc57222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3dd6d326aeb3b94ed86414bb23cf903') in 0.049761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
